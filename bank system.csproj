@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>bank_system</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stub.System.Data.SQLite.Core.NetFramework" Version="1.0.113.3" />
+    <PackageReference Include="Stub.System.Data.SQLite.Core.NetStandard" Version="1.0.113.2" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.7" />
+    <PackageReference Include="System.Data.SQLite.Core.MSIL" Version="1.0.113" />
+    <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.113" />
+    <PackageReference Include="System.Data.SQLite.EF6.Migrations" Version="1.0.112" />
+    <PackageReference Include="System.Data.SQLite.Linq" Version="1.0.113" />
+    <PackageReference Include="System.Data.SQLite.MSIL" Version="1.0.113" />
+    <PackageReference Include="System.Data.SQLite.x64" Version="1.0.113" />
+    <PackageReference Include="System.Data.SQLite.x86" Version="1.0.113" />
+  </ItemGroup>
+
+</Project>
